@@ -1,0 +1,173 @@
+@font-face {
+    font-family:'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+
+    background-color: #F3E5D8;
+    margin: 0px;
+     
+     
+}
+
+
+main{
+width: 650px;
+height: auto;
+
+background-color: white;
+
+display: flex;
+flex-direction: column;
+
+
+
+position: relative;
+top: 10%;
+left: 50%;
+transform: translate(-50%);
+padding: 30px;
+border-radius: 15px;
+font-family: 'Outfit';
+margin-top: 100px;
+margin-bottom: 100px;
+ 
+}
+.Main-heading {
+    font-family: 'YoungSerif';
+    font-size: 37px;
+    font-weight: 550;
+    letter-spacing: 1px;
+
+
+
+}
+.Main-heading{
+    font-family: 'Outfit';
+}
+
+.main-image {
+ 
+border-radius: 10px;
+    
+}
+
+.preparation-time{
+    background-color: #FFF7FC;
+    padding: 18px;
+    border-radius: 6px;
+    margin-top: 30px;
+    
+}
+
+.preparation-time ol li{
+list-style-type: disc;
+line-height: 32px;
+padding-left: 24px;
+}
+
+.preparation-time ol li span{
+    font-weight: bold;
+    color: #534B46;
+}
+ 
+.preparation-time h1{
+    margin: 0px;
+    padding-left: 26px;
+    color: #732B48;
+}
+
+.preparation-time li::marker {
+
+    font-size: 11px;
+    color: #732B48;
+}
+
+.Ingredients ol li{
+list-style: disc;
+line-height: 28px;
+padding-left: 24px;
+margin-left: 16px;
+
+}
+
+.Ingredients li::marker{
+
+    font-size: 11px;
+    margin-left: 98px;
+
+}
+
+.Ingredients ol{
+    padding: 0px;
+}
+
+.Ingredients h1{
+    color: #784837;
+    font-family: 'YoungSerif';
+    letter-spacing: 0.7px;
+    font-weight: 400;
+
+}
+
+.Ingredients li::marker{
+    color: #784837;
+
+}
+
+.Instructions h1{
+    color: #784837;
+    font-family: 'YoungSerif';
+    letter-spacing: 0.7px;
+    font-weight: 400;
+}
+
+.Instructions ol li{
+    
+    line-height: 28px;
+    padding-left: 24px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    text-align:justify;
+    font-size: 16px;
+    }
+
+.Instructions ol{
+    padding: 0px;
+
+}
+
+.Instructions li::marker{
+    color: #784837;
+
+}
+
+.Nutrition h1{
+
+    color: #784837;
+
+}
+
+.first-item, .second-item, .third-item ,.fourth-item{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid 1px;
+    padding: 13px;
+
+    
+}
+
+
+.first-item span, .second-item span, .third-item span ,.fourth-item span{
+    margin-right: 50%;
+    color: #784837;
+    font-weight: 600;
+    text-align: left;
+}
+
